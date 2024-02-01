@@ -1,0 +1,20 @@
+-----------------------Strings are immutable------------------------------------------
+
+Strings are immutable means. once we declare a string in a memory it will become It will become a permanent.They cannot delete  or edit the content of the string Start declaring or initializing or accepting from the user.
+
+We cannot modify Or delete the gradients of the Stringg
+                                    if
+It would be want to modify the steam when we have to create an another string.
+
+----------------------Definition of string.------------------------------------------
+
+String is a collection of characters.
+
+--------------------Syntax of declaring a string.-------------------------------------
+
+datatype string_name;
+Data type of the string is  String
+
+-----------------------------String-------------------------------------------------
+
+Sting in Java. It is a ready mid library function whose meaning is predefined in Java packages.
