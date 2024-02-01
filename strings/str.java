@@ -9,7 +9,8 @@ public class str {
         String fullname="tony stark";           // string initialization   |
                                                 // string initialization   |
         System.out.println(name);               //                         |
-        System.out.println(fullname);           //-------------------------|
+        System.out.println(fullname);
+        System.out.println("   ");           //-------------------------|
         //String is a collection of characters.
         //Instead species are also considered as a valid characters.
         //example=  String fullname="tony stark";
