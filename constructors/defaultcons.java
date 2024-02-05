@@ -1,16 +1,16 @@
 package constructors;
 
-class student
-{
+class student {
     int roll_no;
     String name;
+
     student()//
     {
-        roll_no=1;
-        name="ravi";
+        roll_no = 1;
+        name = "ravi";
     }
-    void display()
-    {
+
+    void display() {
         System.out.println(roll_no);
         System.out.println(name);
     }
@@ -19,10 +19,9 @@ class student
 
 public class defaultcons {
     public static void main(String[] args) {
-        student s=new student();
+        student s = new student();
         s.display();
-        
-    }
-    
-}
 
+    }
+
+}
