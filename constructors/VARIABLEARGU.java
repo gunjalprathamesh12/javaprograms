@@ -11,7 +11,7 @@ public class VARIABLEARGU {
 
         return sum;
     }
-
+ 
     public static void main(String[] args) {
         VARIABLEARGU v1 = new VARIABLEARGU();
         int sum2 = v1.sumnum(1, 2, 34);
