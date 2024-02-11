@@ -32,13 +32,29 @@ class marks extends demo {
     }
 }
 
-class dod extends demo {
-    public static void main(String[] args) {
-        demo d = new demo();
-        marks m = new marks();
+class dod extends marks {
+    String grade;
+
+    void getgrade()
+    {
+        System.out.println("grade=");
+        grade = sc.nextLine();
+    }
+
+    void putgrade() 
+    {
+        System.out.println(grade);
+        sc.close();
+    }
+
+    public static void main(String[] args)
+     {
+        dod d = new dod();
         d.getroll();
-        m.getmark();
+        d.getmark();
+        d.getgrade();
         d.putroll();
-        m.putmark();
+        d.putmark();
+        d.putgrade();
     }
 }
