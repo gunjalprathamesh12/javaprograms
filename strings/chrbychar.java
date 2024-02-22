@@ -16,3 +16,6 @@ public class chrbychar {
     }
 
 }
+/* Care at function display the String character at particular index. */
+// system.out.print(sc.charAt(0));
+// op=ip;

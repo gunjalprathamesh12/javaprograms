@@ -1,0 +1,53 @@
+disadvantages of string is that strings are immutable!! 
+means once we declare a string then we cant change it it will become permanant.We can not add new things into the string or delete something from this string.
+
+                         To overcome the disadvantages of string       builder is used.
+
+!!!          String buffer is also called as string builder.          !!!
+
+declartaion syntax:- 
+                     StringBuilder obj_name = new StringBuilder("String");
+
+                      Functions In String builder
+
+1=charAt()  :- charAt function display, the characters at particular index in memory.   
+systax= charAt(Stringname.charAt(0));
+example= System.out.print(sb.charAt(0));
+
+2=setchaAt():-setcharAt function is used to replace a particular character in a memory at particular index.
+syntax= objname or str name=setchaAt(inexpos,'character');
+example = sb.setchaAt(0,'m')
+
+3=insert()  :- the insert function is use to add some charatcter value at a prticular index .
+this will automatically shift the previous caharcters.
+but while passing new character value we can add only one character.
+syntax=  insert(index pos,'character values'):
+example= sb.insert(o,'p'); 
+
+4=delete()  :- the delete function is use to delete particular caharcters from a string .
+while deleting characters it will not delect end pos character it will delete a one character befor that ending character.
+syntax  = delete(start pos ,end pos);
+example =sb.delete(2,6);
+
+5= append()  :- append function is use to add a particualr characters at the last of our string .
+append(adding at last)
+
+syntax  = append("character");
+example =sb.append("hello");
+
+6= length()  :- length function is use to find the length of the string .
+it is same as string function
+syntax = sb.lenth();
+example= sb.length();
+
+7= capacity():- the capacity function it is use to display the capacity of the StringBuilder
+the initial capacity of StringBuilder is=16
+When you use a StringBuilder in Java and append more than its initial capacity (which is typically 16 characters), the StringBuilder automatically increases its capacity to accommodate the additional characters. 
+
+syntax = capacity();
+example= sb.capacity();
+
+8= reverse() :- the reverse fnction is use to reverse a particular string entered by a user
+syntax = reverse();
+example= sb.reverse();
+
