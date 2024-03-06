@@ -2,12 +2,12 @@ package constructors;
 
 class student {
     int roll_no;
-    String name;
+    String name1;
 
     student()//
     {
         roll_no = 1;
-        name = "ravi";
+        name1 = "ravi";
     }
 
     void display() {
