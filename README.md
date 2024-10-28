@@ -1,3 +1,3 @@
 # javaprograms
 #java
-all java programs
+alljava programs
